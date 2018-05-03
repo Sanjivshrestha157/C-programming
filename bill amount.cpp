@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<conio.h>
 main()
-{
+{0
 	int n,amt;
 	printf("Enter number of units:");
 	scanf("%d",&n);
@@ -11,7 +11,7 @@ main()
 	}
 	else if(n<=150)
 	{
-		amt=1000+((150-n)*15);
+		amt=1000+((n-80)*15);
 	}
 	else
 	{
