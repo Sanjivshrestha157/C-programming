@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<conio.h>
 #include<math.h>
+#include<stdlib.h>
 main()
 {
 	int a,b,c,s,s1,ch;
@@ -38,6 +39,8 @@ main()
 			break;
 		default:
 			printf("Invalid choice\n");
+			getch();
+			exit(0);
 	}
 	printf("area is %f",area);
 	getch();
