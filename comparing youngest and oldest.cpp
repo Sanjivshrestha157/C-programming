@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<conio.h>
 main()
+/*lab 6 journey begins*/
 {
 	int age1,age2,age3;
 	int young,old;
