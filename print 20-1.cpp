@@ -1,6 +1,6 @@
 /*for(initialization;test condition;increment/decrement*/
 /*Lab 9*/
-/*Wap to print all numbers from 1 to 20*/
+/*Wap to print all numbers from 20 to 1*/
 #include<stdio.h>
 #include<conio.h>
 main()
