@@ -18,13 +18,13 @@ main()
 	 count++;
 	}while(p!=1234&&count<3);
 	system("cls");
-	if(count<3)
+	if(p==1234)
 	{
 	 printf("Welcome");
 	}
-	else if(count<=3)
+	else=
 	{
-		printf("You have entered the pin three times wrong");
+		printf("You have entered the pin wrong too many times");
 	}
 	getch();
 } 
