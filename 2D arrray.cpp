@@ -14,26 +14,27 @@ main()
 	 	{
 	 		printf("A%d%d:",i+1,j+1);
 	 		scanf("%d",&a[i][j]);
-	 		
-		}
+	 	}
 	 }
+	 printf("\n");
 	  for(i=0;i<n;i++)
 	 {
 	 	for(j=0;j<n;j++)
 	 	{
 	 		printf("B%d%d:",i+1,j+1);
 	 		scanf("%d",&b[i][j]);
-	 		
-		}
+	 	}
 	 }
+	 printf("sum of a and b is:\n");
 	  for(i=0;i<n;i++)
 	 {
 	 	for(j=0;j<n;j++)
 	 	{
 	 		c[i][j]=a[i][j]+b[i][j];
-			 printf("C%d%d:%d\n",i+1,j+1,c[i][j]);
+			printf("%d\t",c[i][j]);
 	 		
 		}
+		printf("\n");
 	 }
 	 getch();
 	 
